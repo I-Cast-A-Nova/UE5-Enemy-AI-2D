@@ -1,0 +1,464 @@
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root Name="BehaviorTreeGraphNode_Root_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Root_0'"
+   BlackboardAsset="/Script/AIModule.BlackboardData'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base'"
+   NodePosX=528
+   NodePosY=-1008
+   NodeGuid=6A90096A4097289B9B7F929703D6AE07
+   CustomProperties Pin (PinId=2A6EF44B40D9FC81989F519F11303BD6,PinName="In",Direction="EGPD_Output",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_2 71F9C58D43839FA63533FF85D1AF917C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_0'"
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_0" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_0.BTComposite_Sequence_0'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_0" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_0.BTComposite_Sequence_0'"
+      Children(0)=(ChildTask="/Script/AIModule.BTTask_MoveTo'BehaviorTreeGraphNode_Task_25.BTTask_MoveTo_0'",Decorators=("/Script/AIModule.BTDecorator_Blackboard'BehaviorTreeGraphNode_Decorator_34.BTDecorator_Blackboard_0'"))
+      Children(1)=(ChildTask="/Script/AIModule.BTTask_Wait'BehaviorTreeGraphNode_Task_1.BTTask_Wait_0'")
+      Children(2)=(ChildTask="/Script/AIModule.BTTask_SetKeyValueVector'BehaviorTreeGraphNode_Task_3.BTTask_SetKeyValueVector_2'")
+      Children(3)=(ChildTask="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_SetVectorRandomInRange.BTTask_SetVectorRandomInRange_C'BehaviorTreeGraphNode_Task_8.BTTask_SetVectorRandomInRange_C_0'")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_317'"
+   ClassData=(ClassName="BTComposite_Sequence")
+   NodeInstance="/Script/AIModule.BTComposite_Sequence'BTComposite_Sequence_0'"
+   SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_317'"
+   CopySubNodeIndex=1
+   NodePosX=1680
+   NodePosY=1264
+   NodeGuid=D8014E0241D2ADA440E150B987F65656
+   CustomProperties Pin (PinId=D4C0A4F34D48236C8583E598A9A1C431,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 28F2CD504EE1E7A374B45B8F5ED579E0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=53B9DBBE4B8F72F7D38E89A717A34669,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_25 C853E5BA4E673AD54A8A7EBFEB1733C8,BehaviorTreeGraphNode_Task_1 D8FCCD6E409FF06CDB62D5A9450FB324,BehaviorTreeGraphNode_Task_3 A56369F64A6A84044917E492BB739DFC,BehaviorTreeGraphNode_Task_8 28F0DFF44911B6FFCAD9079DA1E7002C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_8" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_8'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_SetVectorRandomInRange.BTTask_SetVectorRandomInRange_C Name="BTTask_SetVectorRandomInRange_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_SetVectorRandomInRange.BTTask_SetVectorRandomInRange_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_8.BTTask_SetVectorRandomInRange_C_0'"
+   End Object
+   Begin Object Name="BTTask_SetVectorRandomInRange_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_SetVectorRandomInRange.BTTask_SetVectorRandomInRange_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_8.BTTask_SetVectorRandomInRange_C_0'"
+      Start Location=(SelectedKeyName="New location To move")
+      Range=200.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   ClassData=(AssetName="BTTask_SetVectorRandomInRange",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_SetVectorRandomInRange",ClassName="BTTask_SetVectorRandomInRange_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_SetVectorRandomInRange.BTTask_SetVectorRandomInRange_C'BTTask_SetVectorRandomInRange_C_0'"
+   CopySubNodeIndex=2
+   NodePosX=2768
+   NodePosY=1504
+   NodeGuid=05FF2288487F7071D502E2A87BB92AB3
+   CustomProperties Pin (PinId=28F0DFF44911B6FFCAD9079DA1E7002C,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 53B9DBBE4B8F72F7D38E89A717A34669,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_1'"
+   Begin Object Class=/Script/AIModule.BTTask_Wait Name="BTTask_Wait_0" ExportPath="/Script/AIModule.BTTask_Wait'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_1.BTTask_Wait_0'"
+   End Object
+   Begin Object Name="BTTask_Wait_0" ExportPath="/Script/AIModule.BTTask_Wait'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_1.BTTask_Wait_0'"
+      WaitTime=(DefaultValue=1.000000)
+      RandomDeviation=(DefaultValue=3.000000)
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   ClassData=(ClassName="BTTask_Wait")
+   NodeInstance="/Script/AIModule.BTTask_Wait'BTTask_Wait_0'"
+   CopySubNodeIndex=3
+   NodePosX=1792
+   NodePosY=1664
+   NodeGuid=248E97734A1DF24EABB0C6AD58A23460
+   CustomProperties Pin (PinId=D8FCCD6E409FF06CDB62D5A9450FB324,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 53B9DBBE4B8F72F7D38E89A717A34669,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_3" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_3'"
+   Begin Object Class=/Script/AIModule.BTTask_SetKeyValueVector Name="BTTask_SetKeyValueVector_2" ExportPath="/Script/AIModule.BTTask_SetKeyValueVector'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_3.BTTask_SetKeyValueVector_2'"
+   End Object
+   Begin Object Name="BTTask_SetKeyValueVector_2" ExportPath="/Script/AIModule.BTTask_SetKeyValueVector'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_3.BTTask_SetKeyValueVector_2'"
+      Value=(DefaultValue=(X=1316.847405,Y=0.000000,Z=0.000000))
+      BlackboardKey=(SelectedKeyName="New location To move")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   ClassData=(ClassName="BTTask_SetKeyValueVector")
+   NodeInstance="/Script/AIModule.BTTask_SetKeyValueVector'BTTask_SetKeyValueVector_2'"
+   CopySubNodeIndex=4
+   NodePosX=2176
+   NodePosY=1648
+   NodeGuid=F4A36EF5439BFC87AC500C93EDDD99AF
+   CustomProperties Pin (PinId=A56369F64A6A84044917E492BB739DFC,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 53B9DBBE4B8F72F7D38E89A717A34669,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_1'"
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_0" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_1.BTComposite_Selector_0'"
+   End Object
+   Begin Object Name="BTComposite_Selector_0" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_1.BTComposite_Selector_0'"
+      Children(0)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_0.BTComposite_Sequence_0'",Decorators=("/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Decorators/BTD_Check-For-BlackBoard-Condition.BTD_Check-For-BlackBoard-Condition_C'BehaviorTreeGraphNode_Decorator_317.BTD_Check-For-BlackBoard-Condition_C_1'"))
+      Services(0)="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_CheckForNPCInDialog.BTService_CheckForNPCInDialog_C'BehaviorTreeGraphNode_Service_10.BTService_CheckForNPCInDialog_C_0'"
+      Services(1)="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SendPathRays.BTService_SendPathRays_C'BehaviorTreeGraphNode_Service_6.BTService_SendPathRays_C_0'"
+      Services(2)="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_DoActionAfterRays.BTService_DoActionAfterRays_C'BehaviorTreeGraphNode_Service_39.BTService_DoActionAfterRays_C_0'"
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   Services(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_10'"
+   ClassData=(ClassName="BTComposite_Selector")
+   NodeInstance="/Script/AIModule.BTComposite_Selector'BTComposite_Selector_0'"
+   SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_10'"
+   CopySubNodeIndex=5
+   NodePosX=2384
+   NodePosY=1040
+   NodeGuid=3424A0C74E80E36959ABD5B56F688E7F
+   CustomProperties Pin (PinId=E794AFDB49072332EC56889619DB611D,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=28F2CD504EE1E7A374B45B8F5ED579E0,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 D4C0A4F34D48236C8583E598A9A1C431,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_25" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_25'"
+   Begin Object Class=/Script/AIModule.BTTask_MoveTo Name="BTTask_MoveTo_0" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_25.BTTask_MoveTo_0'"
+   End Object
+   Begin Object Name="BTTask_MoveTo_0" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_25.BTTask_MoveTo_0'"
+      BlackboardKey=(SelectedKeyName="PlayerPawn")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_34'"
+   ClassData=(ClassName="BTTask_MoveTo")
+   NodeInstance="/Script/AIModule.BTTask_MoveTo'BTTask_MoveTo_0'"
+   SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_34'"
+   CopySubNodeIndex=6
+   NodePosX=1232
+   NodePosY=1600
+   NodeGuid=C64DE60546FD72D4039F30BE68B05A04
+   CustomProperties Pin (PinId=C853E5BA4E673AD54A8A7EBFEB1733C8,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 53B9DBBE4B8F72F7D38E89A717A34669,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_9" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_9'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_AI-TileMap_Pathfind.BTTask_AI-TileMap_Pathfind_C Name="BTTask_AI-TileMap_Pathfind_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_AI-TileMap_Pathfind.BTTask_AI-TileMap_Pathfind_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_9.BTTask_AI-TileMap_Pathfind_C_0'"
+   End Object
+   Begin Object Name="BTTask_AI-TileMap_Pathfind_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_AI-TileMap_Pathfind.BTTask_AI-TileMap_Pathfind_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_9.BTTask_AI-TileMap_Pathfind_C_0'"
+      Current Position=(SelectedKeyName="SelfActor")
+      Target Location=(SelectedKeyName="PlayerPawn")
+      Key! My manager=(SelectedKeyName="Grid manager")
+      Cooldown=40.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_SimpleParallel'BehaviorTreeGraphNode_SimpleParallel_1.BTComposite_SimpleParallel_0'"
+   End Object
+   ClassData=(AssetName="BTTask_AI-TileMap_Pathfind",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_AI-TileMap_Pathfind",ClassName="BTTask_AI-TileMap_Pathfind_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_AI-TileMap_Pathfind.BTTask_AI-TileMap_Pathfind_C'BTTask_AI-TileMap_Pathfind_C_0'"
+   CopySubNodeIndex=7
+   NodePosX=64
+   NodePosY=128
+   NodeGuid=2B608698427D02FBD705BAB9692F204E
+   CustomProperties Pin (PinId=637428DA4131B59F1CA252B6DE37365B,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_SimpleParallel_1 81CC6C2B4E3F0A1AB485B897C1926B8E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_2'"
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_1" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_2.BTComposite_Sequence_1'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_1" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_2.BTComposite_Sequence_1'"
+      Children(0)=(ChildComposite="/Script/AIModule.BTComposite_SimpleParallel'BehaviorTreeGraphNode_SimpleParallel_1.BTComposite_SimpleParallel_0'")
+      Services(0)="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SendPathRays.BTService_SendPathRays_C'BehaviorTreeGraphNode_Service_6.BTService_SendPathRays_C_0'"
+      Services(1)="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_DoActionAfterRays.BTService_DoActionAfterRays_C'BehaviorTreeGraphNode_Service_39.BTService_DoActionAfterRays_C_0'"
+      Services(2)="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SetBasicHumanoidtoBlackBoard.BTService_SetBasicHumanoidtoBlackBoard_C'BehaviorTreeGraphNode_Service_17.BTService_SetBasicHumanoidtoBlackBoard_C_0'"
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   Services(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_6'"
+   Services(1)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_39'"
+   Services(2)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_17'"
+   ClassData=(ClassName="BTComposite_Sequence")
+   NodeInstance="/Script/AIModule.BTComposite_Sequence'BTComposite_Sequence_1'"
+   SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_6'"
+   SubNodes(1)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_39'"
+   SubNodes(2)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'BehaviorTreeGraphNode_Service_17'"
+   CopySubNodeIndex=8
+   NodePosX=384
+   NodePosY=-768
+   NodeGuid=A5388DCE46385528612B72B66451D17D
+   CustomProperties Pin (PinId=71F9C58D43839FA63533FF85D1AF917C,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Root_0 2A6EF44B40D9FC81989F519F11303BD6,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=93A947644B18CF7C05F70BB87DBEDAE8,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_SimpleParallel_1 FE7B6CFF4744036B7DAD808898CA8451,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_3" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_3'"
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_2" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_3.BTComposite_Sequence_2'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_2" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_3.BTComposite_Sequence_2'"
+      Children(0)=(ChildTask="/Game/Blueprints/NPCs/Enemies/Behavior-Tree_Assets/Enemy-BehaviorTree-Tasks/BTTask_BlueprintBase_Move2D-Towards.BTTask_BlueprintBase_Move2D-Towards_C'BehaviorTreeGraphNode_Task_5.BTTask_BlueprintBase_Move2D-Towards_C_2'")
+      Children(1)=(ChildTask="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_UpdatePathIndex.BTTask_UpdatePathIndex_C'BehaviorTreeGraphNode_Task_7.BTTask_UpdatePathIndex_C_0'")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'"
+   End Object
+   ClassData=(ClassName="BTComposite_Sequence")
+   NodeInstance="/Script/AIModule.BTComposite_Sequence'BTComposite_Sequence_2'"
+   CopySubNodeIndex=9
+   NodePosX=528
+   NodePosY=352
+   NodeGuid=AF797EA942F34FE593E71B855A5E4198
+   CustomProperties Pin (PinId=1150F1EF41BAF1535785709BC551B629,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 E38B45294A5F2517C2C55599D18324A1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=F396A53D4DA5C1638641D5BB049B702A,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_5 ACAFD696483E02FCF042DCBAA7FC2443,BehaviorTreeGraphNode_Task_7 F2C7CA0A480A9BFF199647B4B591ADF2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_7" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_7'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_UpdatePathIndex.BTTask_UpdatePathIndex_C Name="BTTask_UpdatePathIndex_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_UpdatePathIndex.BTTask_UpdatePathIndex_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_7.BTTask_UpdatePathIndex_C_0'"
+   End Object
+   Begin Object Name="BTTask_UpdatePathIndex_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_UpdatePathIndex.BTTask_UpdatePathIndex_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_7.BTTask_UpdatePathIndex_C_0'"
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_3.BTComposite_Sequence_2'"
+   End Object
+   ClassData=(AssetName="BTTask_UpdatePathIndex",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_UpdatePathIndex",ClassName="BTTask_UpdatePathIndex_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_UpdatePathIndex.BTTask_UpdatePathIndex_C'BTTask_UpdatePathIndex_C_0'"
+   CopySubNodeIndex=10
+   NodePosX=544
+   NodePosY=672
+   NodeGuid=8F54F63F41C8C30222596488DE06111E
+   CustomProperties Pin (PinId=F2C7CA0A480A9BFF199647B4B591ADF2,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_3 F396A53D4DA5C1638641D5BB049B702A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_5" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_5'"
+   Begin Object Class=/Game/Blueprints/NPCs/Enemies/Behavior-Tree_Assets/Enemy-BehaviorTree-Tasks/BTTask_BlueprintBase_Move2D-Towards.BTTask_BlueprintBase_Move2D-Towards_C Name="BTTask_BlueprintBase_Move2D-Towards_C_2" ExportPath="/Game/Blueprints/NPCs/Enemies/Behavior-Tree_Assets/Enemy-BehaviorTree-Tasks/BTTask_BlueprintBase_Move2D-Towards.BTTask_BlueprintBase_Move2D-Towards_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_5.BTTask_BlueprintBase_Move2D-Towards_C_2'"
+   End Object
+   Begin Object Name="BTTask_BlueprintBase_Move2D-Towards_C_2" ExportPath="/Game/Blueprints/NPCs/Enemies/Behavior-Tree_Assets/Enemy-BehaviorTree-Tasks/BTTask_BlueprintBase_Move2D-Towards.BTTask_BlueprintBase_Move2D-Towards_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_5.BTTask_BlueprintBase_Move2D-Towards_C_2'"
+      Target=(SelectedKeyName="New location To move")
+      Succes Range=60.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_3.BTComposite_Sequence_2'"
+   End Object
+   ClassData=(AssetName="BTTask_BlueprintBase_Move2D-Towards",GeneratedClassPackage="/Game/Blueprints/NPCs/Enemies/Behavior-Tree_Assets/Enemy-BehaviorTree-Tasks/BTTask_BlueprintBase_Move2D-Towards",ClassName="BTTask_BlueprintBase_Move2D-Towards_C")
+   NodeInstance="/Game/Blueprints/NPCs/Enemies/Behavior-Tree_Assets/Enemy-BehaviorTree-Tasks/BTTask_BlueprintBase_Move2D-Towards.BTTask_BlueprintBase_Move2D-Towards_C'BTTask_BlueprintBase_Move2D-Towards_C_2'"
+   CopySubNodeIndex=11
+   NodePosX=80
+   NodePosY=608
+   NodeGuid=66E1552B438FADF63124C3BD67132182
+   CustomProperties Pin (PinId=ACAFD696483E02FCF042DCBAA7FC2443,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_3 F396A53D4DA5C1638641D5BB049B702A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SimpleParallel Name="BehaviorTreeGraphNode_SimpleParallel_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SimpleParallel'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_SimpleParallel_1'"
+   Begin Object Class=/Script/AIModule.BTComposite_SimpleParallel Name="BTComposite_SimpleParallel_0" ExportPath="/Script/AIModule.BTComposite_SimpleParallel'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_SimpleParallel_1.BTComposite_SimpleParallel_0'"
+   End Object
+   Begin Object Name="BTComposite_SimpleParallel_0" ExportPath="/Script/AIModule.BTComposite_SimpleParallel'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_SimpleParallel_1.BTComposite_SimpleParallel_0'"
+      Children(0)=(ChildTask="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_AI-TileMap_Pathfind.BTTask_AI-TileMap_Pathfind_C'BehaviorTreeGraphNode_Task_9.BTTask_AI-TileMap_Pathfind_C_0'")
+      Children(1)=(ChildComposite="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_2.BTComposite_Sequence_1'"
+   End Object
+   ClassData=(ClassName="BTComposite_SimpleParallel")
+   NodeInstance="/Script/AIModule.BTComposite_SimpleParallel'BTComposite_SimpleParallel_0'"
+   CopySubNodeIndex=12
+   NodePosX=432
+   NodePosY=-80
+   NodeGuid=D42663BA4A84354C7E610DB2CC8F62B4
+   CustomProperties Pin (PinId=FE7B6CFF4744036B7DAD808898CA8451,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_2 93A947644B18CF7C05F70BB87DBEDAE8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=81CC6C2B4E3F0A1AB485B897C1926B8E,PinName="Task",Direction="EGPD_Output",PinType.PinCategory="SingleTask",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_9 637428DA4131B59F1CA252B6DE37365B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=33529098450851E0B14B11B509E0F36D,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="SingleNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 5F519FD148F096EC598F5FB028425B65,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_4" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_4'"
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_1" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'"
+   End Object
+   Begin Object Name="BTComposite_Selector_1" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'"
+      Children(0)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_3.BTComposite_Sequence_2'")
+      Children(1)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_5.BTComposite_Sequence_3'",Decorators=("/Script/AIModule.BTDecorator_IsAtLocation'BehaviorTreeGraphNode_Decorator_0.BTDecorator_IsAtLocation_0'"))
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_SimpleParallel'BehaviorTreeGraphNode_SimpleParallel_1.BTComposite_SimpleParallel_0'"
+   End Object
+   ClassData=(ClassName="BTComposite_Selector")
+   NodeInstance="/Script/AIModule.BTComposite_Selector'BTComposite_Selector_1'"
+   CopySubNodeIndex=13
+   NodePosX=1024
+   NodePosY=160
+   NodeGuid=DDD05A614612E5B9688FDA9C7D1F338C
+   CustomProperties Pin (PinId=5F519FD148F096EC598F5FB028425B65,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_SimpleParallel_1 33529098450851E0B14B11B509E0F36D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=E38B45294A5F2517C2C55599D18324A1,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_3 1150F1EF41BAF1535785709BC551B629,BehaviorTreeGraphNode_Composite_5 2FBC926B4E02F20C4091BDAC00FF7D6D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_0'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_DoBuildAttack.BTTask_DoBuildAttack_C Name="BTTask_DoBuildAttack_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_DoBuildAttack.BTTask_DoBuildAttack_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_0.BTTask_DoBuildAttack_C_0'"
+   End Object
+   Begin Object Name="BTTask_DoBuildAttack_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_DoBuildAttack.BTTask_DoBuildAttack_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_0.BTTask_DoBuildAttack_C_0'"
+      Target=(SelectedKeyName="PlayerPawn")
+      Range=120.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+   End Object
+   Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_70'"
+   Decorators(1)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_1'"
+   ClassData=(AssetName="BTTask_DoBuildAttack",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_DoBuildAttack",ClassName="BTTask_DoBuildAttack_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_DoBuildAttack.BTTask_DoBuildAttack_C'BTTask_DoBuildAttack_C_0'"
+   SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_70'"
+   SubNodes(1)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_1'"
+   CopySubNodeIndex=14
+   NodePosX=1040
+   NodePosY=608
+   NodeGuid=F53B248945FC49AAA3F26DAB4C70F3F1
+   CustomProperties Pin (PinId=36BFCD1246757B57F480509085B4273A,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_2'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_PauseAiBrain.BTTask_PauseAiBrain_C Name="BTTask_PauseAiBrain_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_PauseAiBrain.BTTask_PauseAiBrain_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_2.BTTask_PauseAiBrain_C_0'"
+   End Object
+   Begin Object Name="BTTask_PauseAiBrain_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_PauseAiBrain.BTTask_PauseAiBrain_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_2.BTTask_PauseAiBrain_C_0'"
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_5.BTComposite_Sequence_3'"
+   End Object
+   ClassData=(AssetName="BTTask_PauseAiBrain",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_PauseAiBrain",ClassName="BTTask_PauseAiBrain_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_PauseAiBrain.BTTask_PauseAiBrain_C'BTTask_PauseAiBrain_C_0'"
+   CopySubNodeIndex=15
+   NodePosX=2032
+   NodePosY=704
+   NodeGuid=BF8F833E4CA1A0E7DC8E758700537305
+   CustomProperties Pin (PinId=3D522A964501B4601BB2AF8DB1A62502,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 7051A8254674E6E4476157A15BB4179C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_5" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_5'"
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_3" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_5.BTComposite_Sequence_3'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_3" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Composite_5.BTComposite_Sequence_3'"
+      Children(0)=(ChildTask="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_StopMovementInput.BTTask_StopMovementInput_C'BehaviorTreeGraphNode_Task_4.BTTask_StopMovementInput_C_0'")
+      Children(1)=(ChildTask="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_PauseAiBrain.BTTask_PauseAiBrain_C'BehaviorTreeGraphNode_Task_2.BTTask_PauseAiBrain_C_0'")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'"
+   End Object
+   Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_0'"
+   ClassData=(ClassName="BTComposite_Sequence")
+   NodeInstance="/Script/AIModule.BTComposite_Sequence'BTComposite_Sequence_3'"
+   SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BehaviorTreeGraphNode_Decorator_0'"
+   CopySubNodeIndex=16
+   NodePosX=1760
+   NodePosY=400
+   NodeGuid=459D3F4C4DDF20D641FB549254351A47
+   CustomProperties Pin (PinId=2FBC926B4E02F20C4091BDAC00FF7D6D,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 E38B45294A5F2517C2C55599D18324A1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=7051A8254674E6E4476157A15BB4179C,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_4 4F552A964D72B06FCA5E1DAC9FCDF541,BehaviorTreeGraphNode_Task_2 3D522A964501B4601BB2AF8DB1A62502,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_4" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_4'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_StopMovementInput.BTTask_StopMovementInput_C Name="BTTask_StopMovementInput_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_StopMovementInput.BTTask_StopMovementInput_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_4.BTTask_StopMovementInput_C_0'"
+   End Object
+   Begin Object Name="BTTask_StopMovementInput_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_StopMovementInput.BTTask_StopMovementInput_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Task_4.BTTask_StopMovementInput_C_0'"
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_5.BTComposite_Sequence_3'"
+   End Object
+   ClassData=(AssetName="BTTask_StopMovementInput",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_StopMovementInput",ClassName="BTTask_StopMovementInput_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Tasks/BTTask_StopMovementInput.BTTask_StopMovementInput_C'BTTask_StopMovementInput_C_0'"
+   CopySubNodeIndex=17
+   NodePosX=1696
+   NodePosY=704
+   NodeGuid=C5747EC344DDE418071DD3A832D4C69C
+   CustomProperties Pin (PinId=4F552A964D72B06FCA5E1DAC9FCDF541,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 7051A8254674E6E4476157A15BB4179C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_317" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_317'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Decorators/BTD_Check-For-BlackBoard-Condition.BTD_Check-For-BlackBoard-Condition_C Name="BTD_Check-For-BlackBoard-Condition_C_1" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Decorators/BTD_Check-For-BlackBoard-Condition.BTD_Check-For-BlackBoard-Condition_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_317.BTD_Check-For-BlackBoard-Condition_C_1'"
+   End Object
+   Begin Object Name="BTD_Check-For-BlackBoard-Condition_C_1" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Decorators/BTD_Check-For-BlackBoard-Condition.BTD_Check-For-BlackBoard-Condition_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_317.BTD_Check-For-BlackBoard-Condition_C_1'"
+      Boolean to check=(SelectedKeyName="Is Engaged in Dialog")
+      ObservedKeyNames(0)="Is Engaged in Dialog"
+      bInverseCondition=True
+      FlowAbortMode=Self
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_1.BTComposite_Selector_0'"
+   End Object
+   ClassData=(AssetName="BTD_Check-For-BlackBoard-Condition",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Decorators/BTD_Check-For-BlackBoard-Condition",ClassName="BTD_Check-For-BlackBoard-Condition_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/Decorators/BTD_Check-For-BlackBoard-Condition.BTD_Check-For-BlackBoard-Condition_C'BTD_Check-For-BlackBoard-Condition_C_1'"
+   CopySubNodeIndex=1
+   NodeGuid=88ACA15E49C409E8CF52D0A21150308A
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service Name="BehaviorTreeGraphNode_Service_10" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_10'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_CheckForNPCInDialog.BTService_CheckForNPCInDialog_C Name="BTService_CheckForNPCInDialog_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_CheckForNPCInDialog.BTService_CheckForNPCInDialog_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_10.BTService_CheckForNPCInDialog_C_0'"
+   End Object
+   Begin Object Name="BTService_CheckForNPCInDialog_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_CheckForNPCInDialog.BTService_CheckForNPCInDialog_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_10.BTService_CheckForNPCInDialog_C_0'"
+      Dialog Engaged BB Key=(SelectedKeyName="Is Engaged in Dialog")
+      Interval=1.000000
+      RandomDeviation=0.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_1.BTComposite_Selector_0'"
+   End Object
+   ClassData=(AssetName="BTService_CheckForNPCInDialog",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_CheckForNPCInDialog",ClassName="BTService_CheckForNPCInDialog_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_CheckForNPCInDialog.BTService_CheckForNPCInDialog_C'BTService_CheckForNPCInDialog_C_0'"
+   CopySubNodeIndex=5
+   NodeGuid=AFBB2C8B43D47F379CA3C2A964E58C9B
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_34" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_34'"
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_0" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_34.BTDecorator_Blackboard_0'"
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_0" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_34.BTDecorator_Blackboard_0'"
+      CachedDescription="Manual Moving is Is Not Set"
+      OperationType=1
+      BasicOperation=NotSet
+      BlackboardKey=(SelectedKeyName="Manual Moving")
+      FlowAbortMode=Self
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_0.BTComposite_Sequence_0'"
+   End Object
+   ClassData=(ClassName="BTDecorator_Blackboard")
+   NodeInstance="/Script/AIModule.BTDecorator_Blackboard'BTDecorator_Blackboard_0'"
+   CopySubNodeIndex=6
+   NodeGuid=781CCEA0481303CDE3CD3A9009EC1087
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service Name="BehaviorTreeGraphNode_Service_6" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_6'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SendPathRays.BTService_SendPathRays_C Name="BTService_SendPathRays_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SendPathRays.BTService_SendPathRays_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_6.BTService_SendPathRays_C_0'"
+   End Object
+   Begin Object Name="BTService_SendPathRays_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SendPathRays.BTService_SendPathRays_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_6.BTService_SendPathRays_C_0'"
+      Target=(SelectedKeyName="PlayerPawn")
+      Key !Jump=(SelectedKeyName="!Jump")
+      Key !Gap Size=(SelectedKeyName="!GapSize")
+      Key !No Foothold=(SelectedKeyName="!No Foothold")
+      Key Floor Location=(SelectedKeyName="Floor Location")
+      Key Reach height=(SelectedKeyName="Height to reach")
+      Interval=0.001000
+      RandomDeviation=0.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_2.BTComposite_Sequence_1'"
+   End Object
+   ClassData=(AssetName="BTService_SendPathRays",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SendPathRays",ClassName="BTService_SendPathRays_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SendPathRays.BTService_SendPathRays_C'BTService_SendPathRays_C_0'"
+   CopySubNodeIndex=8
+   NodeGuid=6B69EB164F19886E06A69191DC22E905
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service Name="BehaviorTreeGraphNode_Service_39" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_39'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_DoActionAfterRays.BTService_DoActionAfterRays_C Name="BTService_DoActionAfterRays_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_DoActionAfterRays.BTService_DoActionAfterRays_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_39.BTService_DoActionAfterRays_C_0'"
+   End Object
+   Begin Object Name="BTService_DoActionAfterRays_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_DoActionAfterRays.BTService_DoActionAfterRays_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_39.BTService_DoActionAfterRays_C_0'"
+      !Jump Required=(SelectedKeyName="!Jump")
+      !No Foothold=(SelectedKeyName="!No Foothold")
+      !Gap Size=(SelectedKeyName="!GapSize")
+      Amount of Building Allowed=5
+      Floor Location=(SelectedKeyName="Floor Location")
+      Manual Moving Key=(SelectedKeyName="Manual Moving")
+      Key Move into direction=(SelectedKeyName="Move in Manual Direction")
+      Key Reach Height=(SelectedKeyName="Height to reach")
+      Key Build when fall=(SelectedKeyName="Build block when falling")
+      Interval=0.001000
+      RandomDeviation=0.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_2.BTComposite_Sequence_1'"
+   End Object
+   ClassData=(AssetName="BTService_DoActionAfterRays",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_DoActionAfterRays",ClassName="BTService_DoActionAfterRays_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_DoActionAfterRays.BTService_DoActionAfterRays_C'BTService_DoActionAfterRays_C_0'"
+   CopySubNodeIndex=8
+   NodeGuid=91F7B899436F36CC39F7EA93C0D3342B
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service Name="BehaviorTreeGraphNode_Service_17" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_17'"
+   Begin Object Class=/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SetBasicHumanoidtoBlackBoard.BTService_SetBasicHumanoidtoBlackBoard_C Name="BTService_SetBasicHumanoidtoBlackBoard_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SetBasicHumanoidtoBlackBoard.BTService_SetBasicHumanoidtoBlackBoard_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_17.BTService_SetBasicHumanoidtoBlackBoard_C_0'"
+   End Object
+   Begin Object Name="BTService_SetBasicHumanoidtoBlackBoard_C_0" ExportPath="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SetBasicHumanoidtoBlackBoard.BTService_SetBasicHumanoidtoBlackBoard_C'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Service_17.BTService_SetBasicHumanoidtoBlackBoard_C_0'"
+      SET: Location to Move to=(SelectedKeyName="New location To move")
+      SET: playerpawn=(SelectedKeyName="PlayerPawn")
+      Interval=0.001000
+      RandomDeviation=0.000000
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BehaviorTreeGraphNode_Composite_2.BTComposite_Sequence_1'"
+   End Object
+   ClassData=(AssetName="BTService_SetBasicHumanoidtoBlackBoard",GeneratedClassPackage="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SetBasicHumanoidtoBlackBoard",ClassName="BTService_SetBasicHumanoidtoBlackBoard_C")
+   NodeInstance="/Game/Blueprints/NPCs/Neutral/Behavior-Tree_NEUTRAL/BTService_SetBasicHumanoidtoBlackBoard.BTService_SetBasicHumanoidtoBlackBoard_C'BTService_SetBasicHumanoidtoBlackBoard_C_0'"
+   CopySubNodeIndex=8
+   NodeGuid=869A118A4883D23E587D1F9A36F8C088
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_70" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_70'"
+   Begin Object Class=/Script/AIModule.BTDecorator_Cooldown Name="BTDecorator_Cooldown_0" ExportPath="/Script/AIModule.BTDecorator_Cooldown'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_70.BTDecorator_Cooldown_0'"
+   End Object
+   Begin Object Name="BTDecorator_Cooldown_0" ExportPath="/Script/AIModule.BTDecorator_Cooldown'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_70.BTDecorator_Cooldown_0'"
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'"
+   End Object
+   ClassData=(ClassName="BTDecorator_Cooldown")
+   NodeInstance="/Script/AIModule.BTDecorator_Cooldown'BTDecorator_Cooldown_0'"
+   CopySubNodeIndex=14
+   NodeGuid=41A06F3F42166658862128A05C4483DD
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_1'"
+   Begin Object Class=/Script/AIModule.BTDecorator_IsAtLocation Name="BTDecorator_IsAtLocation_2" ExportPath="/Script/AIModule.BTDecorator_IsAtLocation'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_1.BTDecorator_IsAtLocation_2'"
+   End Object
+   Begin Object Name="BTDecorator_IsAtLocation_2" ExportPath="/Script/AIModule.BTDecorator_IsAtLocation'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_1.BTDecorator_IsAtLocation_2'"
+      AcceptableRadius=100.000000
+      bPathFindingBasedTest=(DefaultValue=False)
+      BlackboardKey=(SelectedKeyName="PlayerPawn")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'"
+   End Object
+   ClassData=(ClassName="BTDecorator_IsAtLocation")
+   NodeInstance="/Script/AIModule.BTDecorator_IsAtLocation'BTDecorator_IsAtLocation_2'"
+   CopySubNodeIndex=14
+   NodeGuid=671E47DA48E37474E75009996C0C38E0
+End Object
+Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_0'"
+   Begin Object Class=/Script/AIModule.BTDecorator_IsAtLocation Name="BTDecorator_IsAtLocation_0" ExportPath="/Script/AIModule.BTDecorator_IsAtLocation'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_0.BTDecorator_IsAtLocation_0'"
+   End Object
+   Begin Object Name="BTDecorator_IsAtLocation_0" ExportPath="/Script/AIModule.BTDecorator_IsAtLocation'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base:Behavior Tree.BehaviorTreeGraphNode_Decorator_0.BTDecorator_IsAtLocation_0'"
+      AcceptableRadius=100.000000
+      bPathFindingBasedTest=(DefaultValue=False)
+      BlackboardKey=(SelectedKeyName="PlayerPawn")
+      TreeAsset="/Script/AIModule.BehaviorTree'/Game/Blueprints/NPCs/Neutral/BT_Neutral_NPC_Base.BT_Neutral_NPC_Base'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BehaviorTreeGraphNode_Composite_4.BTComposite_Selector_1'"
+   End Object
+   ClassData=(ClassName="BTDecorator_IsAtLocation")
+   NodeInstance="/Script/AIModule.BTDecorator_IsAtLocation'BTDecorator_IsAtLocation_0'"
+   CopySubNodeIndex=16
+   NodeGuid=2E53949D4DAD0D465DD3C7BF3FAE934A
+End Object
