@@ -1,0 +1,15 @@
+BlackBoardEntry:(EntryName="SelfActor",KeyType="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Object_0'")
+BlackBoardEntry:(EntryName="New location To move",KeyType="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Vector_0'")
+BlackBoardEntry:(EntryName="Is Engaged in Dialog",KeyType="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Bool_0'")
+BlackBoardEntry:(EntryName="PlayerPawn",KeyType="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Object_1'")
+
+BlackBoardEntry:(EntryName="!Jump",KeyType="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Bool_1'")
+BlackBoardEntry:(EntryName="!GapSize",KeyType="/Script/AIModule.BlackboardKeyType_Float'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Float_0'")
+BlackBoardEntry:(EntryName="!No Foothold",KeyType="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Bool_2'")
+BlackBoardEntry:(EntryName="Floor Location",KeyType="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Vector_1'")
+BlackBoardEntry:(EntryName="Manual Moving",KeyType="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Bool_3'")
+BlackBoardEntry:(EntryName="Move in Manual Direction",KeyType="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Bool_4'")
+
+BlackBoardEntry:(EntryName="Height to reach",KeyType="/Script/AIModule.BlackboardKeyType_Float'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Float_1'")
+BlackBoardEntry:(EntryName="Build block when falling",KeyType="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Bool_5'")
+BlackBoardEntry:(EntryName="Grid manager",KeyType="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/NPCs/Neutral/BB_Neutral_NPC_Base.BB_Neutral_NPC_Base:BlackboardKeyType_Object_2'")
